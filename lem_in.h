@@ -13,12 +13,10 @@
 #ifndef PUSH_SWAP_H
 # define PUSH_SWAP_H
 
-# include <unistd.h>
 # include <stdlib.h>
 # include <string.h>
-# include <stdio.h>
-# include "../ft_printf/include/head.h"
-​
+# include "ft_printf/include/head.h"
+
 typedef struct		s_data
 {
 	char						*name;
@@ -26,13 +24,13 @@ typedef struct		s_data
 	short						to_start;
 	short						to_finish;
 }									t_data;
-​
+
 typedef struct		s_node
 {
 	t_data					data;
 	struct	s_node	**links;
 }									t_node;
-​
+
 t_data	mk_data(char *name);
 t_node	*mk_node(char *name, short links_number);
 
