@@ -29,6 +29,8 @@ typedef struct		s_node
 {
 	t_data					data;
 	struct	s_node	**links;
+	int 						top;
+	int 						count;
 }									t_node;
 
 t_data	mk_data(char *name);

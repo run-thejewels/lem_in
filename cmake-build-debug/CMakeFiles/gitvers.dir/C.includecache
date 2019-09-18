@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/kbethany/Desktop/gitvers/ft_printf/include/head.h
+stdio.h
+-
+limits.h
+-
+ctype.h
+-
+unistd.h
+-
+stdarg.h
+-
+../libft/includes/libft.h
+/Users/kbethany/Desktop/gitvers/ft_printf/libft/includes/libft.h
+errno.h
+-
+
+/Users/kbethany/Desktop/gitvers/ft_printf/libft/includes/libft.h
+string.h
+-
+stdlib.h
+-
+unistd.h
+-
+fcntl.h
+-
+
+/Users/kbethany/Desktop/gitvers/lem_in.c
+lem_in.h
+/Users/kbethany/Desktop/gitvers/lem_in.h
+
+/Users/kbethany/Desktop/gitvers/lem_in.h
+stdlib.h
+-
+string.h
+-
+ft_printf/include/head.h
+/Users/kbethany/Desktop/gitvers/ft_printf/include/head.h
+
